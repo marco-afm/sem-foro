@@ -1,0 +1,26 @@
+@import url("../styles.css/reset.css");
+@import url("../styles.css/principal.css");
+@import url("../styles.css/cabecalho.css");
+@import url("../styles.css/conteudo.css");
+
+
+:root {
+    --white: #FFFFFF;
+    --light-gray: #d1d1d1;
+    --gray: #999999;
+    --dark-gray: #555555;
+    --black: #222222;
+
+    --font1: "Inter";
+}
+
+body {
+    color: var(--black);
+    background-color: var(--gray);
+    
+    font-family: var(--font1);
+    font-size: 1rem;
+    font-weight: 400;
+
+    box-sizing: border-box;
+}
